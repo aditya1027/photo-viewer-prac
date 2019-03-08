@@ -11,7 +11,7 @@
 <body>
     <div id="header">
         <div id="menu">
-            <h2>Jquery Portfolio</h2>
+            <h2>Jquery Photo-Viewer</h2>
             <input id="search" style="float:right;" type="text" placeholder="search" />
         </div>
     </div>
