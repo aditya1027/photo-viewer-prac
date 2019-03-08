@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#header{
+    width:100%;
+    height:60px;
+    background-color:black;
+}
+
+#menu{
+    color:white;
+    width:1024px;
+    margin:0px auto;
+}
+
+h2{
+    margin:0px;
+}
+
+#wrapper{
+    width:1024px;
+    min-height: 500px;
+    margin:0px auto;
+    
+}
+
+#portfolio{
+    list-style-type: none;
+    padding-left: 0px;
+    
+}
+
+#portfolio li{
+    display: inline-block;
+}
+
+
+#portfolio li img{
+    height:200px;
+    width:200px;
+    margin:10px 5px 10px 5px;
+    
+}
+
+
+#portfolio li img:hover{
+    cursor:pointer;
+}
+
+#overlay:hover{
+    cursor:pointer;
+}
+
+#frame:hover{
+    cursor:pointer;
+}
+
+#main:hover{
+    cursor:pointer;
+}
+#frame{
+    
+    position: fixed;
+    display:none; 
+   left: 50%;;
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    margin-left:-350px;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-top:50px;
+    
+}
+
+#main{
+    width:580px;
+    height:480px;
+    margin-left:10px;
+}
+
+#overlay{
+    display:none; 
+    width:100%;
+    height:100%;
+    position: fixed;
+    background-color:black;
+    opacity:0.7;
+}
+
+#frame-table{
+    position: absolute;
+    width: 600px;
+    margin-left:0px;
+}
+
+#left img{
+    float:left;
+    margin-left: -30px;
+}
+#right{
+    float:right;
+    margin-right: -30px;
+}
+#left,#right{
+    opacity: 0.6;
+    position: relative;
+    top:227px;
+}
+
+#description{
+    background-color: white;
+    padding-bottom:20px;
+}
+
+#description p{
+margin-left:20px;
+}
+
+#filter li{
+    display:inline;
+}
+
+#filter li:active{
+    text-decoration: underline;
+}
